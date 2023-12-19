@@ -1,0 +1,128 @@
+body {
+    background: #f2f4f6;
+    font-family: "Roboto", sans-serif;
+}
+
+.page-main {
+    padding: 0;
+    max-width: 100%;
+}
+
+.breadcrumbs {
+    display: none !important;
+}
+
+.brand {
+
+    font-family: "Roboto", sans-serif;
+
+    .no-padding {
+        padding: 0;
+    }
+
+    .banner {
+        position:relative;
+        min-height: 440px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        padding-top: 12vw;
+        padding-bottom: 12vw;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 30px;
+            color: white;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            font-size: 16px;
+            font-weight: 600 !important;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            color: #fff;
+            margin-right: 15px;
+            transition: background-color 0.3s ease 0s, border 0.3s ease 0s;
+            margin-top: 20px;
+            display: inline-block;
+            border: solid 2px #48b784;
+            background-color: #48b784;
+            padding: 0.3em 1em;
+
+            &:hover {
+                background: #1a2053;
+                border: solid 2px #1a2053;
+            }
+        }
+    }
+
+    .container.main,
+    .container-fluid.main {
+        img.responsive {
+            width: 100%;
+            height: auto;
+        }
+
+        .gutter {
+            .row {
+                margin-left: -10px;
+                margin-right: -10px;
+            }
+
+            .col,
+            [class*="col-"] {
+                padding-right: 10px;
+                padding-left: 10px;
+                padding: 10px;
+            }
+        }
+
+        .row.no-pad {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .row.no-pad>[class*="col-"] {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .landing-page {
+            padding-top: 60px !important;
+        }
+
+        .banner {
+            padding-top: 48vw;
+            padding-bottom: 48vw;
+        }
+
+        .banner .container::before {
+            content: '';
+            position:absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+        }
+    }
+
+    @media only screen and (max-width: 991px) {}
+}

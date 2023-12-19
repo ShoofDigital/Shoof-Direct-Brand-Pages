@@ -1,0 +1,110 @@
+body {
+  background: #f2f4f6;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-main {
+  padding: 0;
+  max-width: 100%;
+}
+
+.breadcrumbs {
+  display: none !important;
+}
+
+.brand {
+  font-family: "Roboto", sans-serif;
+}
+.brand .no-padding {
+  padding: 0;
+}
+.brand .banner {
+  position: relative;
+  min-height: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  padding-top: 12vw;
+  padding-bottom: 12vw;
+}
+.brand .banner h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+}
+.brand .banner p {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.brand .banner img {
+  margin-bottom: 10px;
+}
+.brand .banner .btn {
+  font-size: 16px;
+  font-weight: 600 !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 15px;
+  transition: background-color 0.3s ease 0s, border 0.3s ease 0s;
+  margin-top: 20px;
+  display: inline-block;
+  border: solid 2px #48b784;
+  background-color: #48b784;
+  padding: 0.3em 1em;
+}
+.brand .banner .btn:hover {
+  background: #1a2053;
+  border: solid 2px #1a2053;
+}
+.brand .container.main img.responsive,
+.brand .container-fluid.main img.responsive {
+  width: 100%;
+  height: auto;
+}
+.brand .container.main .gutter .row,
+.brand .container-fluid.main .gutter .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.brand .container.main .gutter .col,
+.brand .container.main .gutter [class*=col-],
+.brand .container-fluid.main .gutter .col,
+.brand .container-fluid.main .gutter [class*=col-] {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding: 10px;
+}
+.brand .container.main .row.no-pad,
+.brand .container-fluid.main .row.no-pad {
+  margin-right: 0;
+  margin-left: 0;
+}
+.brand .container.main .row.no-pad > [class*=col-],
+.brand .container-fluid.main .row.no-pad > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media only screen and (max-width: 600px) {
+  .brand .landing-page {
+    padding-top: 60px !important;
+  }
+  .brand .banner {
+    padding-top: 48vw;
+    padding-bottom: 48vw;
+  }
+  .brand .banner .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}/*# sourceMappingURL=styles.css.map */

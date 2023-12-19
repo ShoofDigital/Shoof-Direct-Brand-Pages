@@ -1,0 +1,205 @@
+<!-- IMPORT (shoof_direct_nz_brand_pages_css) TOP OF PAGE TEMPLATE (i.e. css styles) -->
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="291"}}
+
+<!-- IMPORT (shoof_direct_nz_landing_pages_css) TOP OF PAGE TEMPLATE (i.e. css styles) -->
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="250"}}
+
+<style>
+/* BANNER SLIDER */
+.brand{
+    background: url(/pub/media/wysiwyg/direct-nz/brands/antahi/bg-antahi.jpg) center center no-repeat #000;
+    background-size: cover;
+}
+
+.promotions,
+.breadcrumbs {
+    display: none;
+}
+
+.brand .banner .btn {
+    border: solid 2px #007b8a;
+    background-color: #007b8a;
+}
+.brand .banner .btn:hover {
+    color: #007b8a;
+    background: #FFFFFF;
+    border: solid 2px #FFFFFF;
+}
+</style>
+
+
+<div class="brand">
+            <div class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/antahi-logo-white.png&quot;}}" alt="" />
+                            <h1>Farm Animal Feeding Products</h1>
+                            <a onclick="scrollToSection()" class="btn">Learn More <i class="porto-icon-down-open"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+<script type="text/javascript">
+require(["jquery", "owl.carousel/owl.carousel.min"], function($) {
+    var banner_owl = $("#banner-slider-demo-4");
+    banner_owl.owlCarousel({
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        dots: false,
+        nav: false,
+        navRewind: true,
+        //animateIn: "fadeIn",
+        //animateOut: "fadeOut",
+        loop: true,
+        lazyLoad: true
+    });
+});
+
+// Scroll to behaviour
+function scrollToSection() {
+  const element = document.getElementById("antahi");
+  element.scrollIntoView({behavior: "smooth"});
+}
+
+</script>
+
+
+<div class="landing-page" id="antahi">
+
+    <div class="category-tiles">
+
+        <div class="container gutter">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Antahi</h1>
+                    <h3>Global leaders in colostrum and electrolyte feeding for farm animals. Calf, lamb, kid and cria feeders. Designed by a vet – Award-winning feeding products. Safe easy stress free tube feeders.</h3>
+                </div>
+            </div>
+
+            <!-- ROW ONE -->
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/brands/antahi.html">
+                            <!-- <p class="sash small">FEATURED</p> -->
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/colostrum-bags.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text one">
+                            <h3>Calf Feeders and Colostrum Bags</h3>
+                            <p>Trusti colostrum bags are the perfect solution for easy storing, fast thawing, pasteurisation, and direct feeding of high quality gold colostrum.  Antahi has combined premium design features, environmental consideration, and the most calf friendly feeders all in one.</p>
+                            <a href="/brands/antahi.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/brands/antahi.html">
+                            <!-- <p class="sash">NEW</p> -->
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/calf-feeder-bottle.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text one">
+                            <h3>Calf Bottle Feeders</h3>
+                            <p>Whether you are bottle feeding, teaching calves to suckle, nursing weak calves or providing essential nutrients via a tube feeder, the Trusti Tuber range has you covered. Vet and Farmer designed to ensure the smoothest and most practical feeding process for your calves.</p>
+                            <a href="/brands/antahi.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/brands/antahi.html">
+                            <!-- <p class="sash">NEW</p> -->
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/lamb-cria-feeder.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text one">
+                            <h3>Lamb, Kid and Cria Feeders</h3>
+                            <p>The best designed lamb, kid goat, and cria colostrum feeding tube you can find. Ease your mind along with those newborn stomachs. The range also includes specifically designed colostrum bags for lambs, kids, and cria, and replacement tubes and teats.</p>
+                            <a href="/brands/antahi.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- ROW TWO -->
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/brands/antahi.html">
+                            <!-- <p class="sash">NEW</p> -->
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/premium-calf-jackets.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text two">
+                            <h3>Premium Calf Jackets</h3>
+                            <p>Keeping newborn calves warm is a basic requirement for optimum health. Calves are born with minimal fat reserves and a high surface are to body weight ratio, making them susceptible to the cold. Super warm, quick dry, waterproof, machine washable, long lasting – the highest quality and best fit calf and goat cover you can find.</p>
+                            <a href="/brands/antahi.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/brands/antahi.html">
+                            <!-- <p class="sash">NEW</p> -->
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/refractometer_1.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text two">
+                            <h3>Refractometers</h3>
+                            <p>Test your colostrum in a matter of seconds to know which is best for the critical first colostrum feed. Choose the model right for you – brix or digital refractometer.</p>
+                            <a href="/brands/antahi.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/brands/antahi.html">
+                            <!-- <p class="sash small">FEATURED</p> -->
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/antahi/pasteurisers_1.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text two">
+                            <h3>Pasteurisers</h3>
+                            <p>The Trusti pasteurizer is a practical and versatile addition to all farms to enable optimum colostrum management. Simple, practical, ensuring quick and safe thawing and warming of colostrum within Trusti Colostrum bags.</p>
+                            <a href="/brands/antahi.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- ENDS row -->
+
+
+        <a href="/brands/antahi.html" class="btn-class">View All Products</a>
+
+
+        </div><!-- ENDS container -->
+
+    </div><!-- ENDS category-tiles -->
+
+
+    <!-- IMPORT (video-section) Video Section (YouTube videos) -->
+    {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="256"}}
+
+
+    <!-- IMPORT (benefits-nz) NZ Benefits Section (the easy way to buy online) -->
+    {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="254"}}
+    <!-- IMPORT (benefits-au) AU Benefits Section (the easy way to buy online) -->
+    {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="255"}}
+
+
+
+</div><!-- ENDS landing-page -->
+
+
+
+<!-- IMPORT (shoof_direct_nz_landing_pages_footer_block) BOTTOM OF PAGE TEMPLATE (Featured Products and Brands) -->
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="231"}}

@@ -1,0 +1,269 @@
+.landing-page {
+  background: #f2f4f6;
+  padding-top: 100px;
+}
+.landing-page h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.landing-page h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.landing-page h1,
+.landing-page h2 {
+  color: #005392;
+  letter-spacing: -1px;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+.landing-page h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0 30px 0;
+  line-height: 1.3;
+}
+.landing-page img {
+  display: block;
+}
+.landing-page .gutter .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.landing-page .gutter .col,
+.landing-page .gutter [class*=col-] {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding: 10px;
+}
+
+.promotion-minor,
+.promotion-major {
+  background: #f2f4f6;
+  text-align: center;
+}
+.promotion-minor .wrapper,
+.promotion-major .wrapper {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.category-tiles {
+  padding: 0 0 50px;
+}
+.category-tiles :hover {
+  text-decoration: none;
+}
+.category-tiles .mobile {
+  display: none;
+}
+.category-tiles .btn-class {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: solid 1px #FFFFFF;
+  background: #005392;
+  border-radius: 50px;
+  margin: 30px 0 40px 0;
+  padding: 10px 30px;
+  display: inline-block;
+  text-align: center;
+}
+.category-tiles .btn-class:hover {
+  color: #005392;
+  border: solid 1px #005392;
+  background: #FFFFFF;
+  text-decoration: none;
+}
+.category-tiles a.btn-shop {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #005392;
+  border: solid 1px #005392;
+  background: #FFFFFF;
+  border-radius: 50px;
+  margin: 0 15px 20px 20px;
+  padding: 7px 20px;
+  text-align: center;
+}
+.category-tiles a.btn-shop:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #005392;
+}
+.category-tiles .wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.category-tiles .wrapper .overlay-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  background: #FFFFFF;
+}
+.category-tiles .wrapper .overlay-text h3 {
+  font-size: clamp(28px, 1vw, 40px);
+  color: #005392;
+  line-height: 1.1;
+  margin: 20px 20px 5px 20px;
+  text-align: left;
+}
+.category-tiles .wrapper .overlay-text p {
+  font-size: clamp(16px, 1.5vw, 16px);
+  color: #000000;
+  margin: 0 20px 15px 20px;
+}
+.category-tiles .wrapper .brand-image {
+  position: relative;
+  display: block;
+}
+.category-tiles .wrapper .brand-logo {
+  position: absolute;
+  display: block;
+  top: 0;
+  background: #FFFFFF;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.category-tiles .wrapper .brand-logo:hover {
+  opacity: 1;
+}
+.category-tiles .wrapper .sash {
+  font-size: 42px !important;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: red;
+  color: #FFF;
+  padding: 10px 0 12px 0;
+  line-height: 42px;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+  z-index: 1;
+}
+.category-tiles .wrapper .sash.small {
+  font-size: 30px !important;
+  padding: 3px 0 5px 0;
+}
+.category-tiles .wrapper .sash:before {
+  right: 100%;
+}
+.category-tiles .wrapper .sash:before,
+.category-tiles .wrapper .sash:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin: 0 -1px;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+.benefits {
+  background: #f2f4f6;
+  padding: 20px 0 20px 0;
+  text-align: left;
+}
+.benefits img {
+  max-width: 160px;
+}
+.benefits h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  color: #005392;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.benefits p {
+  font-size: 18px;
+}
+.benefits a {
+  text-decoration: none;
+}
+.benefits .text-area {
+  text-align: center;
+  padding: 0 15px 10px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: solid 1px #EBEBEB;
+}
+.benefits .text-area:hover {
+  transition: all 0.3s linear;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+.benefits .text-area img {
+  display: inline-block;
+}
+.benefits .text-area h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #005392;
+  margin: 5px 0;
+}
+.benefits .text-area p {
+  font-size: 15px;
+}
+
+.video-wrapper {
+  background: url("/pub/media/wysiwyg/direct-nz/banner-header-fm.jpg") #005392 center center no-repeat;
+  background-size: cover;
+  padding: 60px 0 100px 0;
+}
+.video-wrapper h3 {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+}
+.video-wrapper .tile {
+  box-shadow: none;
+  transition: all 0.1s ease-in;
+}
+.video-wrapper .tile img {
+  display: block;
+  margin-bottom: 10px;
+}
+.video-wrapper .tile:hover {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
+  transition: all 0.1s ease-in;
+}
+
+/* Small Devices (Divi Mobile) */
+@media (max-width: 767px) {
+  .landing-page {
+    padding: 0 0 50px;
+    text-align: left;
+  }
+  .landing-page h1::before,
+  .landing-page h1::after {
+    display: none;
+  }
+  .landing-page h1 {
+    font-size: 40px;
+  }
+  .landing-page h2 {
+    font-size: 30px;
+  }
+  .landing-page .wrapper .category {
+    height: 90vw !important;
+  }
+  .landing-page .wrapper .mobile {
+    font-family: "Oswald";
+    font-size: 30px;
+  }
+}
+/* Small Devices (Divi Mobile) *//*# sourceMappingURL=styles.css.map */

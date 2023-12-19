@@ -1,0 +1,143 @@
+<!-- IMPORT (shoof_direct_nz_brand_pages_css) TOP OF PAGE TEMPLATE (i.e. css styles) -->
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="291"}}
+
+<!-- IMPORT (shoof_direct_nz_landing_pages_css) TOP OF PAGE TEMPLATE (i.e. css styles) -->
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="250"}}
+
+<style>
+/* BANNER SLIDER */
+.brand{
+    background: url(/pub/media/wysiwyg/direct-nz/brands/bucas/horse-with-rug.jpg) center center no-repeat #000;
+    background-size: cover;
+}
+
+.promotions,
+.breadcrumbs {
+    display: none;
+}
+</style>
+
+<div class="brand">
+            <div class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/bucas/bucas-logo-white.png&quot;}}" alt="Bucas" />
+                            <h1>HORSE RUGS</h1>
+                            <a onclick="scrollToSection()" class="btn">Learn More <i class="porto-icon-down-open"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+<script type="text/javascript">
+require(["jquery", "owl.carousel/owl.carousel.min"], function($) {
+    var banner_owl = $("#banner-slider-demo-4");
+    banner_owl.owlCarousel({
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        dots: false,
+        nav: false,
+        navRewind: true,
+        //animateIn: "fadeIn",
+        //animateOut: "fadeOut",
+        loop: true,
+        lazyLoad: true
+    });
+});
+
+// Scroll to behaviour
+function scrollToSection() {
+  const element = document.getElementById("bucas");
+  element.scrollIntoView({behavior: "smooth"});
+}
+</script>
+
+
+<div class="landing-page" id="bucas">
+
+    <div class="category-tiles">
+
+        <div class="container gutter text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Bucas</h1>
+                    <h3>Bucas merges equestrian tradition with the latest technical developments from around the world to create highly innovative and technically advanced equine rugs and accessories.</h3>
+                </div>
+            </div>
+
+            <!-- ROW ONE -->
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="https://shoofdirect.co.nz/equine/horse-wear/rug.html">
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/bucas/horse-rug.jpg&quot;}}" alt="" />
+                        </a>
+                        <div class="overlay-text one">
+                            <h3>Horse Rugs</h3>
+                            <p>Bucas horse rugs redefine equine comfort and performance. Crafted with cutting-edge materials like Stay-Dry lining and breathable fabrics, these rugs offer optimal moisture management and temperature regulation. Their diverse range, from lightweight turnout to heavy-duty blankets, ensures tailored protection for horses in various climates, maintaining their well-being and performance.</p>
+                            <a href="https://shoofdirect.co.nz/equine/horse-wear/rug.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/catalogsearch/result/?q=bucas">
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/bucas/accessories.jpg&quot;}}" alt="Bucas Accessories" />
+                        </a>
+                        <div class="overlay-text one">
+                            <h3>Bucas Accessories</h3>
+                            <p>Bucas has all the accessories you and your horse need to perform at your best, while looking great. From saddle pads, spur straps and girths, to halters, reins and boots, the range of accessories are made with the utmost care to ensure quality and durability. Whatever the size of your horse or their requirements, Bucas has you covered with their extensive selection.</p>
+                            <a href="/catalogsearch/result/?q=bucas" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <a href="/lifestyle/cats-and-dogs/coat.html">
+                            <img src="{{media url=&quot;wysiwyg/direct-nz/brands/bucas/dog-rugs.jpg&quot;}}" alt="Bucas Dog Rugs" />
+                        </a>
+                        <div class="overlay-text one">
+                            <h3>Dog Rugs</h3>
+                            <p>Keep your furry friend stylishly protected with Bucas dog rugs. These high-quality, fashionable rugs suit all breeds, boasting a silk-feel lining and sturdy exterior for warmth and dryness. Ideal for winter, they offer 50g to 300g Thermobonded Insulation to regulate temperature. Your pet stays cosy and chic in these premium, colorful rugs.</p>
+                            <a href="/lifestyle/cats-and-dogs/coat.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        <a href="/catalogsearch/result/?q=bucas" class="btn-class">View All Products</a>
+
+
+        </div><!-- ENDS container -->
+
+    </div><!-- ENDS category-tiles -->
+
+
+    <!-- IMPORT (video-section) Video Section (YouTube videos) -->
+    {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="256"}}
+
+
+    <!-- IMPORT (benefits-nz) NZ Benefits Section (the easy way to buy online) -->
+    {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="254"}}
+    <!-- IMPORT (benefits-au) AU Benefits Section (the easy way to buy online) -->
+    {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="255"}}
+
+
+
+</div><!-- ENDS landing-page -->
+
+
+
+<!-- IMPORT (shoof_direct_nz_landing_pages_footer_block) BOTTOM OF PAGE TEMPLATE (Featured Products and Brands) -->
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="231"}}
