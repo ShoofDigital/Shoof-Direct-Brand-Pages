@@ -12,6 +12,10 @@ body {
   display: none !important;
 }
 
+.landing-page {
+  padding-top: 100px;
+}
+
 .brand {
   font-family: "Roboto", sans-serif;
 }
