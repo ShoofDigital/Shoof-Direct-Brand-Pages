@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="css/master.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <title>Fieldays 2024</title>
+    </head>
+
+    <body>
+        <style>
+            .banner {
+                position: relative;
+                background: url("img/fieldays-2024/banner-dark.jpg") transparent no-repeat center center;
+                background-size: cover;
+            }
+            .brand .banner {
+                padding-top: 14vw;
+                padding-bottom: 10vw;
+            }
+            .brand .banner .btn {
+                font-size: 18px;
+                border: solid 2px #005392;
+                background-color: #005392;
+                margin-top: 0px;
+                padding: 10px 20px;
+                border-radius: 2px;
+            }
+            .brand .banner .btn:hover {
+                color: #005392;
+                background: #ffffff;
+                border: solid 2px #ffffff;
+            }
+            .brand .banner h1 {
+                font-family: "Roboto", sans-serif;
+                font-size: 90px;
+                font-weight: 800;
+                text-transform: none;
+                line-height: 1;
+            }
+            .brand .banner p {
+                font-size: 30px;
+                font-weight: 500;
+            }
+            #fieldays h1,
+            #fieldays h2,
+            #fieldays h3 {
+                font-family: "Roboto", sans-serif;
+                text-transform: none;
+            }
+            #fieldays h1 {
+                font-size: 50px;
+                font-weight: 900;
+                color: #005392;
+                text-align: left;
+            }
+            #fieldays h2 {
+                font-size: 36px;
+                font-weight: 500;
+                color: #005392;
+                text-align: left;
+            }
+            #fieldays h3 {
+                color: #005392;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            #fieldays p {
+                font-size: 16px;
+            }
+            #fieldays li {
+                font-size: 16px;
+            }
+            #fieldays p.intro-text {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: -0.5px;
+                color: #555;
+            }
+
+            #fieldays .circle {
+                border-radius: 100%;
+            }
+
+            @media only screen and (max-width: 600px) {
+                .brand .banner {
+                    padding-top: 30vw;
+                    padding-bottom: 10vw;
+                }
+                .brand .banner h1 {
+                    font-size: 40px;
+                    line-height: 1.2;
+                }
+            }
+        </style>
+
+        <div class="brand">
+            <div class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- <img src="img/fieldays-2024/shoof-logo.png" alt="Bucas" class="img-fluid mb-4" /> -->
+                            <h1>Shoof at Fieldays 2024</h1>
+                            <p>Join us at Site - M16</p>
+                            <a onclick="scrollToSection()" class="btn">Find Out More <i class="porto-icon-down-open"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="landing-page" id="fieldays">
+            <div class="category-tiles">
+                <div class="container gutter">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>Hoofcare Seminars</h1>
+                            <h2>“Find it, Fix it, Fight it” Stamping out Lameness Seminar</h2>
+                            <p class="intro-text">Presented by Dr Neil Chesterton, world renowned hoof care expert.</p>
+                        </div>
+                        <div class="col sm-9">
+                            <p>
+                                <strong><em>About Neil ...</em></strong
+                                ><br />Dr Neil Chesterton, Hon BVSc, has been investigating the causes of lameness in cattle since the early 80’s and has had 3 papers published in the New Zealand
+                                Veterinary Journal. In 1989 he was awarded the Australasbr ian College medal for his work in this field. In 2013 he was the recipient of the Golden Glove award given by
+                                the Dairy Cattle Vets Association of New Zealand. He has produced booklets and teaching videos coverall aspects of lameness in pasture fed dairy herds and has travelled
+                                the world presenting and educating in this topic.
+                            </p>
+                            <p>
+                                In recent years neil has focused on the importance of herd management on the farm tracks and in the milking shed. His understanding of cow behaviour is resulting in
+                                practical ways for farmers to reduce foot damage and subsequent lameness.
+                            </p>
+                            <p class="mb-0">As a result of this work and his contribution to veterinary practice in New Zealand he was awarded an Honorary BVSc by Massey University.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="img/fieldays-2024/neil.jpg" class="circle" alt="Neil Chesterton" />
+                        </div>
+                    </div>
+
+                    <!-- ROW ONE -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p><strong>Times:</strong></p>
+                            <ul>
+                                <li>Wednesday 12th June, 11am</li>
+                                <li>Wednesday 12th June, 2pm</li>
+                                <li>Thursday 13th June, 11am</li>
+                                <li>Thursday 13th June, 2pm</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <p><strong>Location:</strong></p>
+                            <ul>
+                                <li>Shoof Tent - site M16, at rear of tent</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>Neil will also be available for some Q&A after each presentation.</p>
+                        </div>
+                    </div>
+                    <!-- ENDS row-->
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>Scratch Brush Display</h1>
+                            <p class="intro-text">The following scratch brushes will be set up on display.</p>
+                            <p>
+                                Shoof Product Innovation Manager, Ryan Bailey, has set these up in working format. Ask him any question you might have re installation and use. Ryan is at Fieldays
+                                Wednesday through Friday.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="brand">
+                        <div class="grid-container four">
+                            <div class="grid-item">
+                                <img src="https://images.salsify.com/image/upload/s--n5kxifXV--/jecn3ndjxtzvt3wn2np4" alt="" class="img-fluid" />
+                                <h3>HappyCow Scratch Brush 240V Duo</h3>
+                                <p>
+                                    HappyCow 240V Duo Electric Cow Scratch Brush: Elevate livestock care with dual brushes, automatic activation, high-quality bristles, and intelligent,
+                                    low-maintenance operation. Ensure a happier, healthier herd with this durable, plug-ready solution.
+                                </p>
+                                <a href="/catalogsearch/result/?q=220771" class="shop-btn">View Product</a>
+                            </div>
+                            <div class="grid-item">
+                                <img src="https://images.salsify.com/image/upload/s--wz1GnMOQ--/jyxitzv3r09tvytqse3z" alt="" class="img-fluid" />
+                                <h3>Scratch Brush Kerbl Cattle</h3>
+                                <p>
+                                    Introducing the HappyCow Scratch Brush for Cattle, a revolutionary post-mounted grooming solution from Kerbl, Germany, designed to meet the diverse needs of your livestock. Crafted with precision from galvanized steel, it's built to last and offers peace of mind and value for your investment.
+                                </p>
+                                <a href="/catalogsearch/result/?q=220771" class="shop-btn">View Product</a>
+                            </div>
+                            <div class="grid-item">
+                                <img src="https://images.salsify.com/image/upload/s--fzg40oET--/stxwlhkp2danxpwf22j5" alt="" class="img-fluid" />
+                                <h3>HappyCow Scratch Brush Maxi Post</h3>
+                                <p>
+                                    Introducing HappyCow Maxi Post Scratch Brush – the ultimate solution for outdoor animal comfort. Designed for open spaces, it allows multiple animals simultaneous access, serving as an ideal time filler. Crafted with a robust structure, high-quality bristles, and replaceable rings, it ensures durability and cost-effective maintenance. </p>
+                                    <a href="/catalogsearch/result/?q=220771" class="shop-btn">View Product</a>
+                            </div>
+                            <div class="grid-item">
+                                <img src="https://images.salsify.com/image/upload/s--n5kxifXV--/jecn3ndjxtzvt3wn2np4" alt="" class="img-fluid" />
+                                <h3>HappyCow Scratch Brush Free Swing Maxi</h3>
+                                <p>
+                                    Elevate animal comfort with HappyCow Free Swing Maxi, the wireless oscillating brush designed to prioritize animal well-being. Suitable for indoor/outdoor use with high-quality bristles and a hot dip galvanized suspension, this low-cost solution empowers animals with personalized grooming and enrichment.
+                                </p>
+                                <a href="/catalogsearch/result/?q=220771" class="shop-btn">View Product</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 style="margin-bottom: -20px;">New to Shoof ...</h1>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <h2 class="mt=0">Taragate</h2>
+                            <img src="img/taragate/banner.jpg" class="img-fluid" style="border-radius: 5px; margin-bottom: 15px;" alt="Taragate">
+                            <p class="intro-text">
+                                Taragate electric fence products offer pioneering solutions for temporary and permanent fencing. Developed since 1989, our high quality, innovative and simple to use
+                                products have built a reputation of excellence. Taragate products are very much end user focussed and designed to work hard and efficiently for the New Zealand farmer.
+                            </p>
+                            <p><strong>Our most popular products will be on display:</strong></p>
+                            <ul>
+                                <li>Geared reels</li>
+                                <li>Multistrand electric gates</li>
+                                <li>Taraposts, T-post and pigtail range</li>
+                                <li>Ropes, braids, tapes</li>
+                                <li>Insulators and more</li>
+                            </ul>
+                            <p>We also have a fully set up Taragate site at M36/38, just up the road from our main Shoof site. Kerry Powell, the founder and developer of Taragate will be on site Wednesday and Thursday with our Shoof Team.</p>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <h2 class="mt=0">Antahi</h2>
+                            <img src="img/antahi/banner.jpg" class="img-fluid" style="border-radius: 5px; margin-bottom: 15px;" alt="Antahi">
+                            <p class="intro-text">
+                                Global leaders in colostrum and electrolyte feeding for farm animals. Calf, lamb and kid feeders. View the full range at Fieldays, demo a refractometer and see the
+                                Pasteur Pro in action.
+                            </p>
+                            <p><strong>Antahi products include:</strong></p>
+                            <ul>
+                                <li>Trusti colostrum bags</li>
+                                <li>Trusti and Flexti tuber</li>
+                                <li>Calf Bottle Feeders</li>
+                                <li>Thermoo calf covers</li>
+                                <li>Refractometers</li>
+                                <li>Pasteur Pro</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h2>Featured Displays</h2>
+                            <ul>
+                                <li>Calving and Lambing</li>
+                                <li>Colostrum Management</li>
+                                <li>Rearing</li>
+                                <li>Milking efficiency</li>
+                                <li>Hoofcare</li>
+                                <li>Equine</li>
+                                <li>Poultry </li>
+                                <li>Taragate</li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Be in to win ...</h2>
+                            <img src="img/fieldays-2024/lead-gen.jpg" class="img-fluid" style="border-radius: 5px; margin-bottom: 15px;" alt="Taragate">
+                            <p>A $500 Prezzy card</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Be in to win ...</h2>
+                            <img src="img/fieldays-2024/quickstrap.png" class="img-fluid" style="border-radius: 5px; margin-bottom: 15px;" alt="Taragate">
+                            <p>Quick strap giveaways</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- ENDS container -->
+            </div>
+            <!-- ENDS category-tiles -->
+        </div>
+        <!-- ENDS landing-page -->
+
+        <script src="js/footer.js"></script>
+
+        <script>
+            // Scroll to behaviour
+            function scrollToSection() {
+                const element = document.getElementById("fieldays");
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        </script>
+    </body>
+</html>
